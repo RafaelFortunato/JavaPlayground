@@ -8,8 +8,7 @@ public class IdentifierNames {
 //        double notByDecimal = 1000_.00; // DOES NOT COMPILE
         double annoyingButLegal = 1_00_0.0_0; // this one compiles
 
-
-//        Prepare to be tested on these rules. The following examples are legal:
+        // The following examples are legal:
         int okidentifier;
         int $OK2Identifier;
         int _alsoOK1d3ntifi3r;
@@ -20,5 +19,19 @@ public class IdentifierNames {
 //        int hollywood@vine; // @ is not a letter, digit, $ or _
 //        int *$coffee; // * is not a letter, digit, $ or _
 //        int public; // public is a reserved word
+
+        _C();
+        $123_231$();
+    }
+
+    private static int $;
+    public static void _C() {
+        String a_b = "a_b";
+        System.out.println($);
+        System.out.println(a_b);
+    }
+
+    public static void $123_231$() {
+        System.out.println("OK");
     }
 }

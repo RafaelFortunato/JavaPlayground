@@ -26,6 +26,17 @@ public class BearOrShark {
         System.out.println("Primitive Int: " + a);
         System.out.println("Java Integer: " + b);
         System.out.println("Object with primitive int: " + c.val);
+
+        lenghtTest();
+    }
+
+    private static void lenghtTest() {
+        String a = "123";
+        int[] b = {1, 2, 3};
+
+        System.gc();
+        System.out.println(a.length());
+        System.out.println(b.length); // Arrays don`t use parentheses ()
     }
 
     public static void alterInt(int a, Integer b, IntObj c) {
@@ -33,4 +44,6 @@ public class BearOrShark {
         b = 20;
         c.val = 20;
     }
+
+
 }

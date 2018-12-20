@@ -1,5 +1,7 @@
 public class Egret {
-    private String color;
+
+    private String color = "green";
+    { this.color = "blue"; }
 
     public Egret() {
         this("white");
