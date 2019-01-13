@@ -3,9 +3,13 @@ public class Deer {
         System.out.print("Deer");
     }
 
+    public void Deer() { System.out.print("Method");}
+
     public Deer(int age) {
         System.out.print("DeerAge");
     }
+
+    public String javaa = "a";
 
     // If this method was public, it would be overwritten
     private boolean hasHorns() {
