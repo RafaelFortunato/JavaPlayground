@@ -18,23 +18,4 @@ public class AbstractImplementationRequirement {
 //            return "Flamingo";
 //        }
 //    }
-
-
-
-    interface Walkable {
-        void walk();
-    }
-
-    interface Jumpable {
-        String walk();
-    }
-
-//    static class Entity implements Walkable, Jumpable {
-
-//        @Override
-//        public String walk() { // DOESNT COMPILE, Clash implementations
-//            System.out.println("Entity");
-//            return null;
-//        }
-//    }
 }
