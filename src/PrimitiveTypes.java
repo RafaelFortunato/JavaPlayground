@@ -50,6 +50,8 @@ public class PrimitiveTypes {
         int oc = 0100;
         System.out.println("Octal: " + oc);
 
+//        byte x = 40, y = 50;
+//        byte sum = (byte) x + y; // Incompatible types error, (byte) (x + y) would do the trick
 
     }
 }
