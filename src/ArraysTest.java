@@ -25,17 +25,8 @@ public class ArraysTest {
 
         System.out.println(e); // [Ljava.lang.String;@3ac3fd8b
 
-//        anonymousArray({10, 22, 44, 66}); WRONG!
-        anonymousArray(new int[]{10, 22, 44, 66});
-
         for (String s : args) {
             System.out.println(s); // Print any argument passed in the execution
-        }
-    }
-
-    static void anonymousArray(int arr[]) {
-        for (int i : arr) {
-            System.out.println(i);
         }
     }
 }

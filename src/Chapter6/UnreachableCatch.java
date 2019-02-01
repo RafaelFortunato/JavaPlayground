@@ -1,19 +1,10 @@
 package Chapter6;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class UnreachableCatch {
     public static void main(String[] args) {
-//        divideNumbers(0, 0);
-        play();
-    }
-
-    static void play() {
-        ArrayList<Integer> num = new ArrayList<>();
-        num.add(1);
-        num.add(0);
-        System.out.println(num.remove(1));
+        divideNumbers(0, 0);
     }
 
     static int divideNumbers(int a, int b) {

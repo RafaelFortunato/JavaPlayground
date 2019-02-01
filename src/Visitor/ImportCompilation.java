@@ -1,6 +1,6 @@
 package Visitor;
 
-import Aquarium.Water;
+import Chapter1.Aquarium.Water;
 
 public class ImportCompilation {
     public void admire(Water jelly) {
