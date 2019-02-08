@@ -22,6 +22,8 @@ public class DefaultVariableValues {
         System.out.println("Instance Text: " + text);
         System.out.println("Instance Letter: " + letter);
 
+        System.out.println(letter == 0);
+
         boolean bool2;
         int number2;
         String text2;

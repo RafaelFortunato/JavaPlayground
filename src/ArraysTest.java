@@ -1,7 +1,5 @@
 public class ArraysTest {
 
-    static char defaultValue;
-
     public static void main(String args[]) {
 //        Both "String[] name" and "String name[]" are correct ways to declare an array.
         String[] a;
@@ -12,8 +10,6 @@ public class ArraysTest {
         String e[]= {"a", "b", "c"};
         String emptyArray[] = {};
         String nonInitializedArray[];
-
-        System.out.println(defaultValue == 0);
 
         for (String s : emptyArray) {
             System.out.println(s); // Won't be executed

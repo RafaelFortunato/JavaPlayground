@@ -1,6 +1,6 @@
 public class JavaPointers {
 
-    static class Container {
+    private static class Container {
         String name;
 
         Container(String name) {
